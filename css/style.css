@@ -1,0 +1,12 @@
+/* Google font cdn linking here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* Google font cdn linking here */
+
+/* Global css here */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
