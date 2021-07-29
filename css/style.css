@@ -136,3 +136,88 @@ body{
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
 }
 /* letest-news section code end */
+
+/* satisfaction-section code start */
+.satisfaction-section{
+    width: 100%;
+    padding: 0px 0px 80px;
+}
+.honda-font-org-color{
+    color: #E76F51;
+}
+.inner-satisfaction-text{
+    width: 100%;
+    text-align: center;
+}
+.inner-satisfaction-text h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+.honda-img{
+    width: 150px;
+    height: 150px;
+}
+.honda-card-border{
+    border: 1px solid #E5E5E5;
+}
+.honda-card-text{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #6C6C6C;
+}
+.honda-star .fa{
+    color: #E77C40;;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin: 0px 5px 0px 0px;
+}
+.honda-heading{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+}
+.honda-post{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+/* satisfaction-section code end */
+
+/* Frequently Asked Questions section code start */
+.faq-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.faq-section h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+}
+.accordion-item .accordion-button{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #383838;
+    border: 1px solid #D5E5FB;
+}
+.accordion-item .accordion-body{
+    font-size: 16px;
+    line-height: 28px;
+    color: #7E848C;
+}
+.accordion-button:not(.collapsed) {
+    color: #383838;
+    background-color: #fff;
+    box-shadow: none;
+}
+/* Frequently Asked Questions section code end */
