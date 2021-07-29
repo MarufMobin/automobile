@@ -3,6 +3,7 @@
 /* Google font cdn linking here */
 
 /* Global css here */
+
 *{
     margin: 0px;
     padding: 0px;
@@ -10,3 +11,55 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* header section code start here */
+.header-section{
+    background-color: #264653;
+}
+.navbar-toggler-icon{
+    color: #fff !important;
+}
+.navbar-light .navbar-toggler-icon{
+    background-color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.honda-text, .navbar-light .navbar-nav .show>.honda-text{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    transition: .5s;
+}
+.navbar-light .navbar-nav .nav-link.honda-text:hover, .navbar-light .navbar-nav .show>.honda-text:hover{
+    color: #E76F51;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.btn-check:focus+.btn-success, .btn-success:focus{
+    color: #E76F51;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent;
+    border: 2px solid#E76F51;
+    color: #E76F51;
+    outline: none;
+    box-shadow: none;
+}
+.honda-btn{
+    background: #E76F51;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: #E76F51;
+    padding: 8px 22px 8px 22px;
+    border: 2px solid#E76F51;
+    color: #fff;
+    transition: .5s;
+}
+.honda-btn:hover{
+    background-color: transparent;
+    border: 2px solid#E76F51;
+    color: #E76F51;
+}
+
+/* header section code end here */
