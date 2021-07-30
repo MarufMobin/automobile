@@ -281,7 +281,7 @@ body{
 /* footer section code start here */
 .footer-section{
     width: 100%;
-    padding: 80px 0px;
+    padding: 80px 0px 40px;
     background-color: #000;
 }
 .footer-section a{
@@ -290,6 +290,7 @@ body{
     font-size: 18px;
     line-height: 36px;
     font-weight: 500;
+    transition: .5s;
 }
 .footer-section p{
     margin-top: 12px;
@@ -298,5 +299,15 @@ body{
     line-height: 36px;
     font-weight: 400;
 }
-
+.footer-section a:hover{
+    color: #E76F51;
+}
+.footer-section .queto{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    word-spacing: 1.2px;
+    letter-spacing: 1.5px;
+}
 /* footer section code end here */
