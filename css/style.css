@@ -221,3 +221,38 @@ body{
     box-shadow: none;
 }
 /* Frequently Asked Questions section code end */
+
+/* blog-section code start here */
+.blog-section{
+    width: 100%;
+    padding: 40px 0px 120px;
+}
+.block-heading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #383838;
+}
+.blog-imgs{
+    opacity: 1;
+    transition: .5s;
+}
+.blog-imgs:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+.blog-section h4{
+    color: #383838; 
+}
+.empty{
+    width: 3px;
+    height: 100px;
+    background-color: #264653;
+    margin: 0px auto;
+}
+.blog-box-shadow{
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+/* blog-section code end here */
