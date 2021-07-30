@@ -277,3 +277,26 @@ body{
     background-color: #E76F51;
 }
 /* contactus-section code end here */
+
+/* footer section code start here */
+.footer-section{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #000;
+}
+.footer-section a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 500;
+}
+.footer-section p{
+    margin-top: 12px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+/* footer section code end here */
