@@ -1,0 +1,35 @@
+
+/* media query code start here */
+@media ( min-width: 280px ) and ( max-width: 576px ) {
+    /* code start */
+
+    .banner-section,.faq-section,.contactus-section{
+        padding: 40px 0px;
+    }
+    .honda-banner-heading,.faq-section h2{
+        font-size: 34px;        
+    }
+    .honda-paragrap{
+        width: 100%;
+    }
+    .fetured-section .inner-fetured-text h2,.inner-satisfaction-text h2,.block-heading{
+        font-size: 36px;
+        line-height: 54px;
+    }
+    .inner-fetured-img{
+        margin-top: 80px;
+    }
+    .letest-section{
+        padding: 0px 0px 40px;
+    }
+    .contactus-section h2 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: left !important;
+        margin-bottom: 20px;
+    }
+
+ /* code end */
+}
+/* media query code end here */
