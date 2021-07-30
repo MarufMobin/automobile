@@ -256,3 +256,24 @@ body{
     border-radius: 8px;
 }
 /* blog-section code end here */
+
+/* contactus-section code start here */
+.contactus-section{
+    width: 100%;
+    padding: 120px 0px;
+    background-image: url("../images/bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contactus-section h2{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 72px;
+    color: #fff;
+}
+.honda-contact{
+    background-color: #E76F51;
+}
+/* contactus-section code end here */
